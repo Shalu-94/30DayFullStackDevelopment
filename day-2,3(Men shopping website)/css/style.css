@@ -1,0 +1,168 @@
+
+header{
+    background-color:skyblue;
+    padding: 16px 0;
+    text-align: center;
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+ display: inline;
+ margin-right: 30px;
+ color: darkblue;
+}
+ul li a{
+ text-align: none;
+ color:darkblue;
+ font-size: 20px;
+ text-decoration: none;
+ font-weight: bold;
+ font-family:'Times New Roman', Times, serif ; 
+}
+
+#container{
+  display: flex;
+  justify-content: space-around;
+
+}
+.products{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+button{
+    background-color:skyblue ;
+    color:darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
+footer{
+    background-color:skyblue;
+    color:darkblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    position:fixed ;
+    bottom: 0; 
+    width: 100%;
+}
+/* about */
+.row1{
+    display: flex;
+}
+.col1 h1{
+    font-family: Georgia, serif;
+}
+.col1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    justify-content: right;
+}
+/* contact */
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.form1{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    height: 500px;
+    width: 87%;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 12px 20px 5px rgb(122, 120,120);
+}
+/* .brand-logo{
+    background-image: url(../Imges/bu1.jpg);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+} */
+/* .title{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(70, 86, 231);
+} */
+.inputs{
+   padding-right: 20px;
+   margin-left: 35%;
+}
+label,button,input{
+    display: block;
+    width: 50%;
+    border: none;
+}
+label{
+    color: rgb(9,191,251);
+    margin-bottom: 10px;
+}
+input{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    height: 40px;
+    box-shadow: 12px 20px 5px rgb(234,234,234);
+}
+button{
+    margin-top: 20px;
+    background-color: rgb(9,191,251);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.signupbtn{
+    margin-top: 20px;
+    background-color: rgb(9,191,251);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.error{
+    color: red;
+}
+/* access */
+.row_poster{
+    width: 200%;
+    max-height: 400px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.row_posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+   
+}
+.row_poster:hover{
+    transform: scale(1.08);
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    color: white;
+    margin-left: 15px;
+}
