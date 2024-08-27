@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    background-color: aliceblue;
+    height: 500px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 12px 20px 5px rgb(122, 120,120);
+}
+.brand-logo{
+    background-image: url(../Imges/bu1.jpg);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.title{
+    color: rgb(9,191,251);
+}
+.inputs{
+    text-align: left;
+}
+label,button,input{
+    display: block;
+    width: 100%;
+    border: none;
+}
+label{
+    color: rgb(9,191,251);
+    margin-bottom: 10px;
+}
+input{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    height: 40px;
+    box-shadow: 12px 20px 5px rgb(234,234,234);
+}
+button{
+    margin-top: 20px;
+    background-color: rgb(9,191,251);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.error{
+    color: red;
+}
