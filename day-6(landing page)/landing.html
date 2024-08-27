@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Name</title>
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+    <style>
+        body{
+            
+            background-color:#FFFF00;
+        }
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>CLASSIC WATCH</h1>
+    </header>
+    <main>
+        <h1>New Trend Collections</h1>
+        
+        <img src="watch1.jpg">
+        
+        <p>Introducing our latest Branded <b><i><u>WATCH</u></i></b>,designed to make your hands look more stylish</p>
+        <ol>
+            <li>FEATURES</li>
+            <ul>
+                <li>Comfort and Fit</li>
+                <li>Best Quality</li>
+                <li>Low Cost</li>
+            </ul>
+            <li>Strap Material:Leatherette</li>
+            <li>Strap Colour:Black</li>
+            <li>Dial Shape:Round</li>
+            <li>Limited stocks are available HURRY UP!</li>
+        </ol>
+        
+        <h2>Order Now!</h2>
+        <form>
+            <label for="size">Size: </label>
+            <select id="size" name="Size">
+                <option value="s">S</option>
+                <option value="m" selected>M</option>
+                <option value="l">L</option>
+            </select>
+            
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="Name" />
+            <br />
+            <label for="addr">Address:</label>
+            <input type="text" id="addr" name="Address">
+            <br/>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" />
+            <br />
+            <input type="submit" />
+        </form>
+    </main>
+    <h2>More Models Also Available..</h2>
+          <div class="clearfix">
+  <div class="img-container">
+  <img src="digi1.jpg" alt="Italy" style="width:85%">
+  </div>
+  <div class="img-container">
+  <img src="set1.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="analog1.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+    <footer>
+        <p><strong>For contact:<br>email:shaluma9440@gmail.com</strong></p>
+    </footer>
+</body>
+</html>
